@@ -8,7 +8,9 @@ function Navbar() {
     <>
       <div className='mx-5 my-4 items-center flex justify-between lg:mx-14 lg:mt-5'>
         <div>
-          <p className='text-4xl font-bold'>Portfolio</p>
+          <p className='text-4xl font-bold'>
+            <Link to={'/'}>Portfolio</Link>
+          </p>
         </div>
         <div
           className='w-10 h-10 bg-white rounded-full relative text-black justify-center text-center flex items-center text-3xl font-bold cursor-pointer z-20'
