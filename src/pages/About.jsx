@@ -1,3 +1,7 @@
+const about = {
+  aboutDetail: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, nobis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, odio.`
+}
+
 const data = [
   {
     cardId: 0,
@@ -99,20 +103,18 @@ const data = [
 
 function About() {
   return (
-    <div className='mx-5 my-10'>
-      <p className='text-2xl font-bold'>About me</p>
-      <p className='text-lg mt-5'>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-        odio non distinctio doloribus animi eius exercitationem numquam est
-        culpa fugiat.
-      </p>
+    <div className='mx-5 my-10 lg:mx-20 lg:flex lg:items-center lg:justify-between lg:gap-x-10'>
+      <div className='lg:w-1/2'>
+        <p className='text-2xl font-bold lg:text-4xl'>About me</p>
+        <p className='text-lg my-5 lg:text-2xl'>{about.aboutDetail}</p>
+      </div>
 
-      <div className='cards flex mx-auto flex-col justify-center items-center my-10 gap-4'>
+      <div className='cards flex mx-auto flex-col justify-center items-center my-10 gap-4 lg:w-3/4 lg:flex-wrap lg:flex-row'>
         {data.map((cards) => {
           return (
             <div
               key={cards.cardId}
-              className='bg-white text-sm text-black rounded-md p-2 capitalize w-full font-semibold'
+              className='bg-white text-sm h-40 text-black rounded-md p-2 capitalize w-full font-semibold lg:w-[18rem]'
             >
               {cards.card.map((data) => {
                 return (

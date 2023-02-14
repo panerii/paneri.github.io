@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='mx-5 my-4 items-center flex justify-between'>
+      <div className='mx-5 my-4 items-center flex justify-between lg:mx-14 lg:mt-5'>
         <div>
           <p className='text-4xl font-bold'>Portfolio</p>
         </div>
@@ -18,7 +18,7 @@ function Navbar() {
         </div>
       </div>
       {!toggle && (
-        <div className='z-10 w-1/2 h-screen absolute top-0 right-0 bg-white text-black text-lg font-[syne] font-semibold'>
+        <div className='z-10 w-1/2 lg:w-[15rem] h-screen absolute top-0 right-0 bg-white text-black text-lg font-[syne] font-semibold'>
           <ul className='absolute right-1/4 top-1/4 text-center'>
             <Link
               onClick={() => {
