@@ -114,7 +114,7 @@ function About() {
           return (
             <div
               key={cards.cardId}
-              className='bg-white text-sm h-40 text-black rounded-md p-2 capitalize w-full font-semibold lg:w-[18rem]'
+              className='bg-white text-sm h-40 text-black rounded-md px-4 py-2 capitalize w-full font-semibold lg:w-[18rem]'
             >
               {cards.card.map((data) => {
                 return (

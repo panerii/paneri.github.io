@@ -66,7 +66,7 @@ function Family() {
           })}
         </div>
       </div>
-      <div className='text-center my-10'>
+      <div className='text-center my-10 bg-white text-black py-4'>
         <p className='text-3xl font-bold'>Contact</p>
         <div className='flex flex-col gap-5 my-5 text-lg font-semibold mx-5 lg:flex-row lg:justify-center lg:items-center lg:gap-10'>
           <p>
