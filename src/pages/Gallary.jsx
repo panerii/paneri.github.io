@@ -14,7 +14,7 @@ function Gallary() {
       <div className='flex flex-col gap-y-4 lg:flex-row lg:gap-4 lg:justify-center lg:flex-wrap'>
         {images.map((image) => {
           return (
-            <div className='lg:w-72'>
+            <div key={image} className='lg:w-72'>
               <img className='rounded-md' src={image} alt='' />
             </div>
           )
