@@ -5,6 +5,9 @@ import Image4 from '../assets/gallary/pic-4.jpg'
 
 const images = [Image1, Image2, Image3, Image4]
 
+
+//Do not change anything below this
+
 function Gallary() {
   return (
     <div className='my-10 mx-2 lg:mx-20'>

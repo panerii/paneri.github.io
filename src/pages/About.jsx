@@ -101,6 +101,8 @@ const data = [
   },
 ]
 
+//Do not change anything below this
+
 function About() {
   return (
     <div className='mx-5 my-10 lg:mx-20 lg:flex lg:items-center lg:justify-between lg:gap-x-10'>

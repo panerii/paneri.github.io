@@ -1,12 +1,17 @@
 import About from './About'
 import Family from './Family'
 import Gallary from './Gallary'
+
+//Do not change anything above this
+
 import HeroImage from '../assets/profile-pic.jpg'
 
 const data = {
   fullname: `FirstName SurName`,
   designation: `CREATIVE WEB & APP DEVELOPER`,
 }
+
+//Do not change anything below this
 
 function Home() {
   return (
